@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #3d122a; /* Un tono de violeta */
+}
+
+.main-header, .main-footer {
+    background: #42073a; /* Un tono más oscuro de violeta */
+    background-image: url('abstractImage.png');
+    text-align: center;
+    padding: 1em 0;
+}
+
+.proyectos-section, .sobre-mi-section, .contacto-section {
+    background-color: rgba(255, 255, 255, 0.1); /* Transparencia para ligereza visual */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cv-section a {
+    color: #fff; /* Establece el color del texto a blanco */
+    text-decoration: none; /* Opcional: elimina el subrayado del enlace */
+}
+
+.cv-section a:hover {
+    color: #ccc; /* Color del enlace al pasar el mouse por encima, puedes cambiarlo si lo deseas */
+}
+
+
+.proyectos-section {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.lista-proyectos {
+    background-color: rgba(255, 255, 255, 0.3); /* Fondo ligeramente transparente para mejorar la legibilidad */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.proyecto {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
